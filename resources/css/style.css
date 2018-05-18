@@ -17,11 +17,19 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+}
+
+.logo span {
   color: mediumaquamarine;
 }
 
 header nav{
   padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 .content {
@@ -65,4 +73,8 @@ p {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+}
+
+.column.small {
+  width: 240px;
 }
