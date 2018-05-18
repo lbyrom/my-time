@@ -150,4 +150,29 @@ header nav{
   width: 240px;
 }
 
+img.cookie {
+  height: 240px;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.news-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  background-color: whitesmoke;
+  font-family: "verdana", sans-serif;
+  font-size: 12px
+  color: dimgray;
+  border-bottom: 1px solid black;
+}
+
+.bite span {
+  padding-left: 11px;
+}
+
 /* Footer */
