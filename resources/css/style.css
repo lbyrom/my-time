@@ -23,3 +23,36 @@ header {
 header nav{
   padding-right: 40px;
 }
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+div {
+  display: block;
+  border: 1px solid black;
+}
+.column.large {
+  width: 630px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em:
+  -webkit-margin-before: .83em;
+  -webkit-margin-after: .83em;
+  -webkit-margin-start: 0px
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px
+  -webkit-margin-end: 0px;
+}
