@@ -32,9 +32,9 @@ header nav{
 }
 
 div {
-  display: block;
   border: 1px solid black;
 }
+
 .column.large {
   width: 630px;
 }
@@ -55,4 +55,14 @@ p {
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px
   -webkit-margin-end: 0px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
